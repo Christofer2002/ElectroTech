@@ -30,8 +30,8 @@ Asegúrese de tener instalados los siguientes componentes antes de comenzar:
 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd backend
+git clone https://github.com/Christofer2002/ElectroTech.git
+cd ElectroTechBack
 ````
 
 2. Configuración de la Base de Datos
@@ -50,7 +50,7 @@ El backend estará disponible en http://localhost:8080.
 1. En el directorio raíz del proyecto, navegue al directorio del frontend.
    
 ```bash
-cd frontend
+cd ElectroTechFront
 ```
 2. Instalar dependencias
    
