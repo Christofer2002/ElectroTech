@@ -34,6 +34,7 @@ public class ProductoService {
         productoActual.setDescripcion(producto.getDescripcion());
         productoActual.setPrecio(producto.getPrecio());
         productoActual.setCantidadStock(producto.getCantidadStock());
+        productoActual.setCategoria(producto.getCategoria());
         productoActual.setProveedor(producto.getProveedor());
 
         return productoRepository.save(productoActual);

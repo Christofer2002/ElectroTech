@@ -28,6 +28,10 @@ public class Producto {
     private int cantidadStockProducto;
 
     @ManyToOne
+    @JoinColumn(name = "id_categoria")
+    private Categoria categoria;
+
+    @ManyToOne
     @JoinColumn(name = "id_proveedor")
     private Proveedor proveedor;
 
@@ -78,5 +82,13 @@ public class Producto {
 
     public void setCantidadStock(Integer cantidadStock) {
         this.cantidadStockProducto = cantidadStock;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 }

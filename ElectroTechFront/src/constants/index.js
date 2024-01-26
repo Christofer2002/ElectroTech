@@ -1,0 +1,1 @@
+export {optionGetFetch} from './optionGetFetch.js';
