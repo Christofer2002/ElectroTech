@@ -1,0 +1,22 @@
+:root {
+  --sky-50: #f0f9ff; /* Default background color */
+  --sky-100: #e0f2fe;
+  --sky-200: #bae6fd; /* Default disabled button color */
+  --sky-300: #7dd3fc;
+  --sky-400: #38bdf8; 
+  --sky-500: #0ea5e9; /* Default button color */
+  --sky-600: #0284c7; /* Default hover button color */
+  --sky-700: #0369a1; /* Default active button color and default text color disabled */
+  --sky-800: #075985;
+  --sky-900: #0c4a6e;
+  --sky-950: #082f49;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  background-color: var(--sky-50);
+}
